@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    border: 5px solid white;
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    background-color: orange;
+}
+
+#profile {
+    padding-top: 4%;
+    /* padding-left: 20%; */
+}
+
+#profile img {
+    position: relative;
+    left: 10%;
+    width: 70%;
+    border-radius: 50%;
+
+}
+
+#contact {
+    background-color: black;
+    color: orange;
+    padding: 4%;
+    margin-top: 5%;
+}
+
+#cinfo {
+    padding: 5%;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+#cinfo p {
+    margin-bottom: 4px;
+}
+
+#lang {
+    background-color: black;
+    color: orange;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#linfo h5 {
+    margin-bottom: 4px;
+    margin-left: 4%;
+}
+
+#skill {
+    background-color: black;
+    color: orange;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#sinfo h5 {
+    margin-bottom: 4px;
+    margin-left: 4%;
+}
+
+#hobby {
+    background-color: black;
+    color: orange;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#hinfo h3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+
+
+
+}
+
+.right {
+    height: 100%;
+    width: 70%;
+    background-color: yellow;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 23%;
+    /* background-color: #fff; */
+
+}
+
+#about {
+    background-color: black;
+    color: yellow;
+    margin-left: 2%;
+    padding: 8px;
+    margin-top: 1%;
+
+}
+
+#about i {
+    gap: 5px;
+}
+
+#ainfo {
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+#education {
+    background-color: black;
+    color: yellow;
+    margin-left: 2%;
+    padding: 5px;
+    margin-top: 1%;
+
+}
+#einfo{
+    margin-top: 7px;
+    position: relative;
+    left: 8px;
+}
+#einfo h5{
+    font-size: 1rem;
+}
